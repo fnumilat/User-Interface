@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+  }
+
+  .container{
+	padding: 50px;
+	width: 100px;
+  }
+
+  .menubar nav{
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+	margin-top: 35px;
+	margin-left: 180px;
+  }
+
+  .menubar nav a{
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+
+  .logo{		
+	display: inline-block;
+	margin-left: -180px;
+	margin-top: 25px;
+  }
+
+  .container-2{ 
+	  position: relative; 
+	  margin: 0 auto; 
+	  max-width: 960px;
+	  margin-top: -5%;
+	 }
+
+.row{
+  width: 100%;
+  display:inline-block
+}
+
+.col-6{
+  position: relative;
+  width: 45%;
+  padding: 2%;
+  display:inline-block;
+
+}
+
+.col-6 h2{
+  font-size: 5em;
+  text-align:center;
+}
+
+.image-holder{ 
+	text-align: right;
+ }
+
+.call-to-action{
+	 text-align: center; 
+	 padding: 25px 0;  
+	 }
+	 
+.btn{
+	 padding: 10px 35px;
+	 }
+
+  .top-content{
+	margin: 1%;
+	min-width: 200px;
+	width: 27%;
+	display: inline-block;
+	margin-left: 250px;
+	margin-right: -150px;
+  }
+
+  .middle-img{
+	  margin: 1%;
+	  width: 62%;
+	  margin-left: 250px;
+  }
+
+  .bottom-content{
+	margin: 1%;
+	min-width: 10px;
+	width: 15%;
+	display: inline-block;
+	margin-left: 258px;
+	margin-right: -130px;
+	margin-bottom: 3%;
+  }
+
+  .footer-content1{
+	margin: 5%;
+	margin-top: 3%;
+	margin-left: 250px;
+  }
+
+  .footer-content2{
+	  margin: 2%;
+	  margin-left: 700px;
+	  margin-top: 10px;
+  }
+
+  hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 250px;
+	margin-right: 350px;
+	border-width: 1px;
+  }
+
+
+
+
+
